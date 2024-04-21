@@ -1,0 +1,91 @@
+.add_button {
+    text-align: right;
+}
+
+.tr_color {
+    color: white;
+    background-color: #D83830;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Container */
+  .App {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+    color: hsl(0, 75%, 21%);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  /* Product List */
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  /* Product Card */
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-card h2 {
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    margin: 5px 0;
+  }
+  
+  /* Button */
+  .button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
